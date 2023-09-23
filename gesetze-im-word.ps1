@@ -2,12 +2,12 @@ if ($args.Length -lt 2 -or $args.Length -gt 2) {
     Write-Host "Mit diesem Tool können Sie über PowerShell Gesetzesparagraphen schnell in Microsoft Word hineinkopieren."
     Write-Host "Eingabecursor in Word an die richtige Stelle setzen und das Skript wie folgt aufrufen:"
     Write-Host "./gesetze-im-word 109d StGB"
-	Write-Host
+    Write-Host
     Write-Host "https://github.com/eugrus/gesetze-im-word - Evgeny Fishgalov - 2023"
-	Write-Host
+    Write-Host
     Write-Host "Für urheberrechtlich relevante Handlungen gelten die nachstehenden Bedingungen mit der Maßgabe, dass auch entgeltliche juristische Dienstleistungen als kommerzielle Nutzung gelten: https://creativecommons.org/licenses/by-nc-sa/3.0/de/deed"
-	Write-Host "Dieses Skript erstellte Evgeny Fishgalov in seiner Freizeit."
-	Write-Host "Die eigene Verwendung von diesem Skript durch Evgeny Fishgalov an seinem Arbeitsplatz bei der Erfüllung seiner Arbeit begründet keine Erlaubnis für eine selbstständige lizenzlose Weiternutzung für kommerzielle Zwecke durch den Arbeitgeber."
+    Write-Host "Dieses Skript erstellte Evgeny Fishgalov in seiner Freizeit."
+    Write-Host "Die eigene Verwendung von diesem Skript durch Evgeny Fishgalov an seinem Arbeitsplatz bei der Erfüllung seiner Arbeit begründet keine Erlaubnis für eine selbstständige lizenzlose Weiternutzung für kommerzielle Zwecke durch den Arbeitgeber."
     exit 1
 }
 
