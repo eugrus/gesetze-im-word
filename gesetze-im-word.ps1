@@ -1,7 +1,7 @@
 if ($args.Length -lt 2 -or $args.Length -gt 2) {
     Write-Host "Mit diesem Tool können Sie über PowerShell Gesetzesparagraphen schnell in Microsoft Word hineinkopieren."
     Write-Host "Eingabecursor in Word an die richtige Stelle setzen und das Skript wie folgt aufrufen:"
-    Write-Host "./gesetze-im-word 109d StGB"
+    Write-Host ".\gesetze-im-word 109d StGB"
     Write-Host
     Write-Host "https://github.com/eugrus/gesetze-im-word - Evgeny Fishgalov - 2023"
     Write-Host
