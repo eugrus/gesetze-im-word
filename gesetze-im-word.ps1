@@ -17,6 +17,8 @@ $Gesetz = $args[1].ToLower()
 
 $url = "https://www.gesetze-im-internet.de/$($Gesetz)/__$($Paragraf).html"
 
+[Net.ServicePointManager]::SecurityProtocol = [Net.SecurityProtocolType]::Tls12
+
 $html = Invoke-RestMethod -Uri $url
 
 function Decode-Html {
